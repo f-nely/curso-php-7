@@ -38,7 +38,7 @@ $cars = [
 
 //echo $cars['Ford']['color'];
 
-foreach($cars as $car) {
+/* foreach($cars as $car) {
     echo 'Color: ' . $car['color']  . ' '. 'Motor: '. $car['motor'] .' '. 'Year: '. $car['year'] . '<br>';
-}
+} */
 
