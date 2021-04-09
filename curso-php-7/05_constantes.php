@@ -1,0 +1,9 @@
+<?php
+
+define('NOME_CONSTANTE', 3030);
+
+echo NOME_CONSTANTE . '<br>';
+
+const TESTE_CONSTANTE = 2021;
+
+echo TESTE_CONSTANTE;
