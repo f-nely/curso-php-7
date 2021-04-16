@@ -7,15 +7,12 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Sou o header da página</h1>
-    </header>
     
     <div>
         <?php
             echo 'Olá mundo!';
         ?>
     </div>
-    
+
 </body>
 </html>
