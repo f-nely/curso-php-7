@@ -8,7 +8,9 @@
 </head>
 <body>
     <?php
-        include_once('includes/header.php');
+        //include_once('includes/header.php');
+        //require 'includes/header.php';
+        require_once 'includes/header.php';
     ?> 
 
     <div>
@@ -18,7 +20,7 @@
     </div>
 
     <?php
-        include_once('includes/footer.php');
+        include('includes/footer.php');
     ?>  
 
 </body>
