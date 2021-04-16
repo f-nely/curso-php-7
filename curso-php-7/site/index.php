@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-        include('includes/header.php');
+        include_once('includes/header.php');
     ?> 
 
     <div>
@@ -18,7 +18,7 @@
     </div>
 
     <?php
-        include('includes/footer.php');
+        include_once('includes/footer.php');
     ?>  
 
 </body>
