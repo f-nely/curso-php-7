@@ -16,9 +16,6 @@
             echo 'Olá mundo!';
         ?>
     </div>
-
-    <footer>
-        <p>Rodapé</p>
-    </footer>
+    
 </body>
 </html>
