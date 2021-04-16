@@ -10,7 +10,8 @@
     <?php
         //include_once('includes/header.php');
         //require 'includes/header.php';
-        require_once 'includes/header.php';
+        //require_once 'includes/header.php';
+        include('includes/header.php');
     ?> 
 
     <div>
