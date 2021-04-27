@@ -15,10 +15,12 @@ $password = '123456';
 
 function cryptC(string $value): string
 {
-    $hash = crypt($value, '7dc10a72810ccb5e01bd9bb6833b2cee');
+    /* $hash = crypt($value, '7dc10a72810ccb5e01bd9bb6833b2cee');
     $hash = md5($value);
     $hash = sha1($hash);
-    $hash = hash('sha512', $hash);
+    $hash = hash('sha512', $hash); */
+
+    $hash = hash('sha512', sha1(md5(crypt($value, '7dc10a72810ccb5e01bd9bb6833b2cee'))));
 
     return $hash;
 }
