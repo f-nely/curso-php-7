@@ -16,7 +16,13 @@ echo '<hr>';
 echo "Descrição: {$_POST['descricao']}";
 echo '<hr>'; */
 
-echo "Nome: {$_REQUEST['nome']}";
+if ($_POST['nome'] == '' || strlen($_POST['nome']) <= 3) {
+    echo 'O campo nome é inválido: ';
+} else {
+    echo "Nome: {$_POST['nome']}";
+}
+
+/* echo "Nome: {$_REQUEST['nome']}";
 echo '<hr>';
 echo "Senha: {$_REQUEST['senha']}";
 echo '<hr>';
@@ -29,4 +35,4 @@ echo '<hr>';
 echo "Estado: {$_REQUEST['estado']}";
 echo '<hr>';
 echo "Descrição: {$_REQUEST['descricao']}";
-echo '<hr>';
+echo '<hr>'; */
